@@ -1,0 +1,515 @@
+{
+  "profile": {
+    "name": "Atleta Demo",
+    "version": "v3.3 (Optimized 70min)",
+    "age": 24,
+    "weight": 78,
+    "height": 182,
+    "bodyFat": "~14%",
+    "occupation": "Software Developer",
+    "nutrition": {
+      "calories": {
+        "min": 3000,
+        "max": 3200,
+        "target": 3100
+      },
+      "protein": {
+        "min": 167,
+        "target": 170
+      },
+      "carbs": {
+        "min": 350,
+        "max": 390,
+        "target": 370
+      },
+      "fat": {
+        "min": 75,
+        "max": 85,
+        "target": 80
+      },
+      "water": {
+        "min": 3.5,
+        "max": 4,
+        "target": 3.75
+      }
+    }
+  },
+  "days": {
+    "0": {
+      "id": "domingo",
+      "name": "Domingo",
+      "sessionName": "Día de Descanso & Preparación Semanal",
+      "isRestDay": true,
+      "requiresLegWarmup": false,
+      "tips": "Día de pesaje semanal, preparación de comidas y descanso total. Mañana arranca Torso A.",
+      "exercises": []
+    },
+    "1": {
+      "id": "lunes",
+      "name": "Lunes",
+      "sessionName": "Torso A — Fuerza (Empuje + Tirón)",
+      "isRestDay": false,
+      "requiresLegWarmup": false,
+      "tips": "Sesión optimizada 65-70 min · Compuestos con máxima energía · Frecuencia 2 brazos y hombro lateral",
+      "exercises": [
+        {
+          "id": "press_banca",
+          "name": "Press banca barra olímpica",
+          "sets": 4,
+          "reps": "5-6",
+          "targetRir": "2 → 2 → 1 → 0",
+          "rest": "3 min",
+          "notes": "Agarre más allá de los anillos · Barra al pezón · Pausa 1s en pecho · Explosivo en subida",
+          "isMainLift": true
+        },
+        {
+          "id": "remo_pendlay",
+          "name": "Remo Pendlay",
+          "sets": 4,
+          "reps": "5-6",
+          "targetRir": "2 → 2 → 1 → 0",
+          "rest": "3 min",
+          "notes": "Torso horizontal · Barra al suelo entre reps · Straps series pesadas",
+          "isMainLift": true
+        },
+        {
+          "id": "press_militar_manc",
+          "name": "Press militar mancuernas sentado",
+          "sets": 3,
+          "reps": "6-8",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2 min",
+          "notes": "Banco a 75° (no a 90°) · Cada brazo sigue su trayectoria natural · Codos ligeramente delante",
+          "isMainLift": true
+        },
+        {
+          "id": "jalon_prono",
+          "name": "Jalón barra recta ag. ancho prono",
+          "sets": 3,
+          "reps": "8-10",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2 min",
+          "notes": "Más allá de los anillos · Codos hacia abajo y atrás · Tira hacia los bolsillos"
+        },
+        {
+          "id": "elev_laterales_polea_lunes",
+          "name": "Elevaciones laterales polea",
+          "sets": 3,
+          "reps": "12-15",
+          "targetRir": "1 → 0 → 0",
+          "rest": "60-90s",
+          "notes": "Fresco tras los básicos para máxima anchura V-Taper · Cruce por detrás a la altura de la cadera"
+        },
+        {
+          "id": "curl_biceps_barra",
+          "name": "Curl bíceps barra",
+          "sets": 3,
+          "reps": "8-10",
+          "targetRir": "2 → 1 → 0",
+          "rest": "90s",
+          "notes": "Codos pegados · Lento en bajada · Sin balanceo lumbar",
+          "isMainLift": true
+        },
+        {
+          "id": "ext_triceps_polea_lunes",
+          "name": "Extensión tríceps polea (barra recta o V)",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "2 → 1 → 0",
+          "rest": "90s",
+          "notes": "Codos fijos a los costados · Bloqueo abajo 1s · Énfasis cabeza lateral y medial · Frecuencia 2 de tríceps"
+        },
+        {
+          "id": "face_pulls",
+          "name": "Face pulls con cuerda (polea)",
+          "sets": 3,
+          "reps": "15-20",
+          "targetRir": "1 → 0 → 0",
+          "rest": "60s",
+          "notes": "Correctivo postural y manguito rotador · Codos altos · Al final para no quitar energía a los básicos"
+        },
+        {
+          "id": "neck_curls",
+          "name": "Neck curls",
+          "sets": 2,
+          "reps": "15",
+          "targetRir": "RIR 2",
+          "rest": "60s",
+          "notes": "NUNCA al fallo · Cuello anterior · Movimiento controlado en banco plano"
+        }
+      ]
+    },
+    "2": {
+      "id": "martes",
+      "name": "Martes",
+      "sessionName": "Pierna A — Cuádriceps (Cadena Anterior)",
+      "isRestDay": false,
+      "requiresLegWarmup": true,
+      "tips": "Preentreno Kongestion · Calentar rodilla izquierda · RDL fresco sin fatiga lumbar previa",
+      "exercises": [
+        {
+          "id": "sentadilla_barra",
+          "name": "Sentadilla barra olímpica",
+          "sets": 4,
+          "reps": "5-6",
+          "targetRir": "3 → 2 → 1 → 0",
+          "rest": "3 min",
+          "notes": "Profundidad y control para palancas de 191cm · Pausa breve abajo",
+          "isMainLift": true
+        },
+        {
+          "id": "prensa_45",
+          "name": "Prensa 45° pisada alta",
+          "sets": 3,
+          "reps": "8-10",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2 min",
+          "notes": "Pisada alta activa más femoral y glúteo · Sin despegar el sacro del respaldo"
+        },
+        {
+          "id": "rdl",
+          "name": "Peso muerto rumano",
+          "sets": 3,
+          "reps": "8-10",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2.5 min",
+          "notes": "Bisagra de cadera pura · Sientes isquios estirarse · Entras fresco sin fatiga lumbar de viernes"
+        },
+        {
+          "id": "extension_cuadriceps",
+          "name": "Extensión de cuádriceps",
+          "sets": 3,
+          "reps": "12-15",
+          "targetRir": "1 → 0 → 0",
+          "rest": "90s",
+          "notes": "Pausa de 1s arriba de máxima contracción concéntrica"
+        },
+        {
+          "id": "gemelos_maq_pie",
+          "name": "Gemelos máquina de pie",
+          "sets": 4,
+          "reps": "12-15",
+          "targetRir": "1 → 0 → 0 → 0",
+          "rest": "60s",
+          "notes": "2 segundos de pausa abajo en máximo estiramiento · Clave para pantorrilla larga"
+        },
+        {
+          "id": "ab_wheel",
+          "name": "Ab wheel (desde rodillas)",
+          "sets": 3,
+          "reps": "6-10",
+          "targetRir": "1 → 0 → 0",
+          "rest": "90s",
+          "notes": "Desde rodillas · Retroversión pélvica para aislar el abdomen"
+        }
+      ]
+    },
+    "3": {
+      "id": "miercoles",
+      "name": "Miércoles",
+      "sessionName": "Día de Descanso & Recuperación",
+      "isRestDay": true,
+      "requiresLegWarmup": false,
+      "tips": "Prioriza recuperación activa, movilidad mañana/noche y alcanzar macros (3.000+ kcal). NEAT cubierto.",
+      "exercises": []
+    },
+    "4": {
+      "id": "jueves",
+      "name": "Jueves",
+      "sessionName": "Torso B — Hipertrofia (Tracción + Amplitud)",
+      "isRestDay": false,
+      "requiresLegWarmup": false,
+      "tips": "Sesión 70-80 min · Intensidad real de principio a fin · Dead hangs SIEMPRE al acabar",
+      "exercises": [
+        {
+          "id": "dominadas",
+          "name": "Dominadas agarre neutro o supino",
+          "sets": 4,
+          "reps": "6-8",
+          "targetRir": "2 → 2 → 1 → 0",
+          "rest": "2.5 min",
+          "notes": "Neutro=palmas enfrentadas · Supino=palmas hacia ti · Rango completo con brazos largos",
+          "isMainLift": true
+        },
+        {
+          "id": "iso_lateral_incline",
+          "name": "Iso-lateral super incline press",
+          "sets": 3,
+          "reps": "8-10",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2 min",
+          "notes": "Ajusta asiento para ángulo ~30° · Enfoque haz clavicular (pecho superior)"
+        },
+        {
+          "id": "peck_deck",
+          "name": "Peck Deck / Cruces en máquina",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "1 → 0 → 0",
+          "rest": "90s",
+          "notes": "Codos semiflexionados a la altura del pecho · Pausa 1s en máxima contracción · Aducción pura"
+        },
+        {
+          "id": "remo_polea_baja",
+          "name": "Remo polea baja agarre neutro",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2 min",
+          "notes": "Pecho fuera · Aprieta dorsales 1s pegando codos al torso"
+        },
+        {
+          "id": "rear_delt_fly",
+          "name": "Rear delt fly máquina pecho apoyado",
+          "sets": 3,
+          "reps": "12-15",
+          "targetRir": "1 → 0 → 0",
+          "rest": "60s",
+          "notes": "Hombro posterior para dar volumen 3D · Brazos semi-flexionados fijos"
+        },
+        {
+          "id": "elev_laterales_polea_jueves",
+          "name": "Elevaciones laterales polea",
+          "sets": 3,
+          "reps": "15-20",
+          "targetRir": "1 → 0 → 0",
+          "rest": "60s",
+          "notes": "Frecuencia 2 deltoides lateral · Bombeo continuo"
+        },
+        {
+          "id": "curl_inclinado_manc",
+          "name": "Curl inclinado con mancuernas",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "1 → 0 → 0",
+          "rest": "90s",
+          "notes": "Banco a 45° · Hombro en extensión · Mayor estiramiento cabeza larga · Rango completo · Codos fijos"
+        },
+        {
+          "id": "ext_triceps_cuerda",
+          "name": "Extensión tríceps overhead polea (cuerda)",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "1 → 0 → 0",
+          "rest": "90s",
+          "notes": "Polea media/alta · Agarre neutro cuerda (o doble cuerda) · Torso 45° · Codos al frente · Abre al final · Estiramiento cabeza larga"
+        },
+        {
+          "id": "curl_inverso_ez",
+          "name": "Curl inverso con barra EZ",
+          "sets": 2,
+          "reps": "12-15",
+          "targetRir": "1 → 0",
+          "rest": "60s",
+          "notes": "Agarre prono · Desarrolla braquiorradial y braquial · Complementa antebrazos · Peso moderado"
+        },
+        {
+          "id": "neck_extensions",
+          "name": "Neck extensions",
+          "sets": 2,
+          "reps": "15",
+          "targetRir": "RIR 2",
+          "rest": "60s",
+          "notes": "NUNCA al fallo · Cuello posterior con disco en nuca"
+        },
+        {
+          "id": "dead_hangs",
+          "name": "Dead hangs",
+          "sets": 3,
+          "reps": "Fallo",
+          "targetRir": "RIR 0",
+          "rest": "60s",
+          "notes": "OBLIGATORIO siempre · 191cm necesita descompresión de columna"
+        }
+      ]
+    },
+    "5": {
+      "id": "viernes",
+      "name": "Viernes",
+      "sessionName": "Pierna B — Cadena Posterior (Glúteo e Isquios)",
+      "isRestDay": false,
+      "requiresLegWarmup": true,
+      "tips": "Cadena posterior blindada · Peso muerto déficit a fuego sin solapamiento · Calentar rodilla",
+      "exercises": [
+        {
+          "id": "peso_muerto_deficit",
+          "name": "Peso muerto con déficit",
+          "sets": 4,
+          "reps": "5-6",
+          "targetRir": "3 → 2 → 1 → 0",
+          "rest": "3 min",
+          "notes": "Plataforma 5-10cm · Al no tener RDL hoy, aquí tiras con todo tu potencial · Straps",
+          "isMainLift": true
+        },
+        {
+          "id": "hip_thrust_maq",
+          "name": "Hip thrust en máquina",
+          "sets": 3,
+          "reps": "8-10",
+          "targetRir": "2 → 1 → 0",
+          "rest": "2 min",
+          "notes": "Empuja con talones · Bloqueo de 1s arriba con glúteos de piedra"
+        },
+        {
+          "id": "sentadilla_bulgara_hs",
+          "name": "Sentadilla búlgara máquina HS",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "2 → 1 → 0",
+          "rest": "90s",
+          "notes": "Hammer Strength Ground Base o mancuernas · Pie delantero adelantado"
+        },
+        {
+          "id": "curl_femoral_sentado",
+          "name": "Curl femoral sentado",
+          "sets": 3,
+          "reps": "10-12",
+          "targetRir": "1 → 0 → 0",
+          "rest": "90s",
+          "notes": "Torso pegado al respaldo · Rodillas alineadas con el eje · Cadera a 90° (máxima hipertrofia en estiramiento) · Excéntrica 3s"
+        },
+        {
+          "id": "gemelos_sentado_soleo",
+          "name": "Gemelos sentado sóleo",
+          "sets": 4,
+          "reps": "15-20",
+          "targetRir": "1 → 0 → 0 → 0",
+          "rest": "60s",
+          "notes": "Trabaja el sóleo específicamente (anchura baja de la pantorrilla)"
+        },
+        {
+          "id": "plancha",
+          "name": "Plancha abdominal",
+          "sets": 3,
+          "reps": "35-50s",
+          "targetRir": "RIR 0",
+          "rest": "60s",
+          "notes": "Progresa a 45-50s · Añade disco de lastre en cuanto superes 45s"
+        }
+      ]
+    },
+    "6": {
+      "id": "sabado",
+      "name": "Sábado",
+      "sessionName": "Día de Descanso & Recuperación",
+      "isRestDay": true,
+      "requiresLegWarmup": false,
+      "tips": "Día de descanso. Si tomas alcohol, mantén moderación (destruye síntesis proteica 24-36h). Movilidad y agua.",
+      "exercises": []
+    }
+  },
+  "mobility": {
+    "morning": {
+      "duration": "5-7 min",
+      "items": [
+        {
+          "name": "Aperturas de pecho en el suelo",
+          "sets": "2x10",
+          "notes": "Contrarresta horas encorvado"
+        },
+        {
+          "name": "Elevaciones de cadera con pausa",
+          "sets": "2x10",
+          "notes": "Activa glúteo · Estira flexor cadera"
+        },
+        {
+          "name": "Cat-cow",
+          "sets": "2x10",
+          "notes": "Lubrica vértebras · Movilidad espinal"
+        },
+        {
+          "name": "Rotaciones torácicas sentado",
+          "sets": "2x8/lado",
+          "notes": "Columna torácica — clave para 191cm"
+        }
+      ]
+    },
+    "night": {
+      "duration": "8-10 min",
+      "items": [
+        {
+          "name": "Flexores de cadera en el suelo",
+          "sets": "2x45s/lado",
+          "notes": "Acortados de estar de pie horas"
+        },
+        {
+          "name": "Isquiotibiales tumbado",
+          "sets": "2x45s/lado",
+          "notes": "Calambres femoral · Profundidad sentadilla"
+        },
+        {
+          "name": "Estiramiento pecho en marco puerta",
+          "sets": "2x30s",
+          "notes": "Corrige hombros hacia adelante"
+        },
+        {
+          "name": "Cuádriceps de pie",
+          "sets": "2x40s/lado",
+          "notes": "Rodilla izquierda · Movilidad pierna"
+        },
+        {
+          "name": "Dead hang",
+          "sets": "1x al fallo",
+          "notes": "Descomprime columna · Obligatorio con 191cm"
+        }
+      ]
+    },
+    "legWarmup": {
+      "duration": "8-10 min",
+      "items": [
+        {
+          "name": "Bicicleta estática suave",
+          "sets": "5 min",
+          "notes": "Elevar temperatura · Lubricar rodilla"
+        },
+        {
+          "name": "Extensiones rodilla sin peso",
+          "sets": "2x15",
+          "notes": "Activar cuádriceps sin carga"
+        },
+        {
+          "name": "Sentadillas peso corporal",
+          "sets": "2x10",
+          "notes": "Patrón de movimiento antes de barra"
+        },
+        {
+          "name": "Sentadilla barra vacía",
+          "sets": "2x8",
+          "notes": "Técnica y calentamiento específico"
+        }
+      ]
+    }
+  },
+  "rirGuide": [
+    {
+      "rir": "RIR 0",
+      "intensity": "Fallo absoluto",
+      "when": "Última serie accesorios / aislamiento",
+      "warning": "NUNCA en sentadilla ni peso muerto"
+    },
+    {
+      "rir": "RIR 1",
+      "intensity": "Casi fallo (1 rep más máx)",
+      "when": "Últimas series de accesorios y compuestos secundarios",
+      "warning": "Solo con técnica impecable"
+    },
+    {
+      "rir": "RIR 2",
+      "intensity": "Alta intensidad (2 reps en reserva)",
+      "when": "Series intermedias de banca, remo, dominadas y accesorios",
+      "warning": "Estándar de hipertrofia sólida"
+    },
+    {
+      "rir": "RIR 3",
+      "intensity": "Moderada (3 reps en reserva)",
+      "when": "Primera serie efectiva de sentadilla y peso muerto",
+      "warning": "Seguridad ante todo en compuestos pesados"
+    },
+    {
+      "rir": "RIR 4+",
+      "intensity": "Calentamiento / Activación",
+      "when": "Aproximaciones",
+      "warning": "Demasiado lejos del estímulo real"
+    }
+  ]
+}

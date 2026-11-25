@@ -1,0 +1,17 @@
+{
+  "expo": {
+    "name": "Thragg Pro Tracker",
+    "slug": "thragg-tracker",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#07070a",
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.thragg.tracker"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}

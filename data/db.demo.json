@@ -1,0 +1,254 @@
+{
+  "workouts": {
+    "2026-11-02": {
+      "date": "2026-11-02",
+      "dayId": "1",
+      "sessionName": "Torso A — Fuerza (Empuje + Tirón)",
+      "notes": "Buena velocidad en barra, técnica sólida en compuestos.",
+      "completedAt": "2026-11-02T19:15:00.000Z",
+      "exercises": {
+        "press_banca": [
+          { "setNum": 1, "weight": 70, "reps": 6, "rir": 2, "e1rm": 84, "isPr": false },
+          { "setNum": 2, "weight": 70, "reps": 6, "rir": 2, "e1rm": 84, "isPr": false },
+          { "setNum": 3, "weight": 70, "reps": 6, "rir": 1, "e1rm": 84, "isPr": false },
+          { "setNum": 4, "weight": 70, "reps": 5, "rir": 1, "e1rm": 81.7, "isPr": false }
+        ],
+        "remo_pendlay": [
+          { "setNum": 1, "weight": 67.5, "reps": 7, "rir": 2, "e1rm": 83.3, "isPr": false },
+          { "setNum": 2, "weight": 67.5, "reps": 7, "rir": 1, "e1rm": 83.3, "isPr": false },
+          { "setNum": 3, "weight": 67.5, "reps": 6, "rir": 1, "e1rm": 81, "isPr": false }
+        ],
+        "jalon_prono": [
+          { "setNum": 1, "weight": 62.5, "reps": 10, "rir": 2, "e1rm": 83.3, "isPr": false },
+          { "setNum": 2, "weight": 62.5, "reps": 9, "rir": 1, "e1rm": 81.3, "isPr": false },
+          { "setNum": 3, "weight": 62.5, "reps": 8, "rir": 0, "e1rm": 79.2, "isPr": false }
+        ],
+        "elev_laterales_polea_lunes": [
+          { "setNum": 1, "weight": 7.5, "reps": 15, "rir": 1, "e1rm": 11.3, "isPr": false },
+          { "setNum": 2, "weight": 7.5, "reps": 14, "rir": 1, "e1rm": 11, "isPr": false },
+          { "setNum": 3, "weight": 7.5, "reps": 13, "rir": 0, "e1rm": 10.8, "isPr": false }
+        ]
+      }
+    },
+    "2026-11-03": {
+      "date": "2026-11-03",
+      "dayId": "2",
+      "sessionName": "Pierna A — Cuádriceps (Cadena Anterior)",
+      "notes": "Profundidad completa en sentadilla y control excéntrico.",
+      "completedAt": "2026-11-03T19:20:00.000Z",
+      "exercises": {
+        "sentadilla_barra": [
+          { "setNum": 1, "weight": 85, "reps": 6, "rir": 2, "e1rm": 102, "isPr": false },
+          { "setNum": 2, "weight": 85, "reps": 6, "rir": 2, "e1rm": 102, "isPr": false },
+          { "setNum": 3, "weight": 85, "reps": 6, "rir": 1, "e1rm": 102, "isPr": false },
+          { "setNum": 4, "weight": 85, "reps": 5, "rir": 1, "e1rm": 99.2, "isPr": false }
+        ],
+        "prensa_45": [
+          { "setNum": 1, "weight": 120, "reps": 12, "rir": 2, "e1rm": 168, "isPr": false },
+          { "setNum": 2, "weight": 120, "reps": 11, "rir": 1, "e1rm": 164, "isPr": false },
+          { "setNum": 3, "weight": 120, "reps": 10, "rir": 0, "e1rm": 160, "isPr": false }
+        ],
+        "extension_cuadriceps": [
+          { "setNum": 1, "weight": 55, "reps": 15, "rir": 1, "e1rm": 82.5, "isPr": false },
+          { "setNum": 2, "weight": 55, "reps": 14, "rir": 1, "e1rm": 80.7, "isPr": false },
+          { "setNum": 3, "weight": 55, "reps": 13, "rir": 0, "e1rm": 78.8, "isPr": false }
+        ]
+      }
+    },
+    "2026-11-05": {
+      "date": "2026-11-05",
+      "dayId": "4",
+      "sessionName": "Torso B — Hipertrofia (Tracción + Amplitud)",
+      "notes": "Buena congestión en dorsal y deltoide lateral.",
+      "completedAt": "2026-11-05T19:10:00.000Z",
+      "exercises": {
+        "dominadas": [
+          { "setNum": 1, "weight": 10, "reps": 8, "rir": 1, "e1rm": 12.7, "isPr": true },
+          { "setNum": 2, "weight": 10, "reps": 7, "rir": 1, "e1rm": 12.3, "isPr": false },
+          { "setNum": 3, "weight": 10, "reps": 6, "rir": 0, "e1rm": 12, "isPr": false }
+        ],
+        "iso_lateral_incline": [
+          { "setNum": 1, "weight": 45, "reps": 10, "rir": 2, "e1rm": 60, "isPr": false },
+          { "setNum": 2, "weight": 45, "reps": 10, "rir": 1, "e1rm": 60, "isPr": false },
+          { "setNum": 3, "weight": 45, "reps": 9, "rir": 0, "e1rm": 58.5, "isPr": false }
+        ],
+        "remo_polea_baja": [
+          { "setNum": 1, "weight": 55, "reps": 12, "rir": 1, "e1rm": 77, "isPr": false },
+          { "setNum": 2, "weight": 55, "reps": 12, "rir": 1, "e1rm": 77, "isPr": false },
+          { "setNum": 3, "weight": 55, "reps": 11, "rir": 0, "e1rm": 75.2, "isPr": false }
+        ]
+      }
+    },
+    "2026-11-06": {
+      "date": "2026-11-06",
+      "dayId": "5",
+      "sessionName": "Pierna B — Cadena Posterior (Glúteo e Isquios)",
+      "notes": "Progresión limpia en peso muerto y RDL.",
+      "completedAt": "2026-11-06T18:55:00.000Z",
+      "exercises": {
+        "peso_muerto_deficit": [
+          { "setNum": 1, "weight": 100, "reps": 6, "rir": 2, "e1rm": 120, "isPr": false },
+          { "setNum": 2, "weight": 100, "reps": 6, "rir": 1, "e1rm": 120, "isPr": false },
+          { "setNum": 3, "weight": 100, "reps": 5, "rir": 1, "e1rm": 116.7, "isPr": false }
+        ],
+        "rdl": [
+          { "setNum": 1, "weight": 70, "reps": 10, "rir": 2, "e1rm": 93.3, "isPr": false },
+          { "setNum": 2, "weight": 70, "reps": 10, "rir": 1, "e1rm": 93.3, "isPr": false },
+          { "setNum": 3, "weight": 70, "reps": 9, "rir": 1, "e1rm": 91, "isPr": false }
+        ],
+        "curl_femoral_sentado": [
+          { "setNum": 1, "weight": 65, "reps": 14, "rir": 1, "e1rm": 95.3, "isPr": false },
+          { "setNum": 2, "weight": 65, "reps": 13, "rir": 1, "e1rm": 93.2, "isPr": false },
+          { "setNum": 3, "weight": 65, "reps": 12, "rir": 0, "e1rm": 91, "isPr": false }
+        ]
+      }
+    },
+    "2026-11-09": {
+      "date": "2026-11-09",
+      "dayId": "1",
+      "sessionName": "Torso A — Fuerza (Empuje + Tirón)",
+      "notes": "PR en press banca y remo Pendlay.",
+      "completedAt": "2026-11-09T19:12:00.000Z",
+      "exercises": {
+        "press_banca": [
+          { "setNum": 1, "weight": 72.5, "reps": 6, "rir": 2, "e1rm": 87, "isPr": true },
+          { "setNum": 2, "weight": 72.5, "reps": 6, "rir": 1, "e1rm": 87, "isPr": false },
+          { "setNum": 3, "weight": 72.5, "reps": 6, "rir": 1, "e1rm": 87, "isPr": false },
+          { "setNum": 4, "weight": 72.5, "reps": 5, "rir": 0, "e1rm": 84.6, "isPr": false }
+        ],
+        "remo_pendlay": [
+          { "setNum": 1, "weight": 70, "reps": 7, "rir": 2, "e1rm": 86.3, "isPr": true },
+          { "setNum": 2, "weight": 70, "reps": 7, "rir": 1, "e1rm": 86.3, "isPr": false },
+          { "setNum": 3, "weight": 70, "reps": 6, "rir": 1, "e1rm": 84, "isPr": false }
+        ],
+        "jalon_prono": [
+          { "setNum": 1, "weight": 65, "reps": 10, "rir": 1, "e1rm": 86.7, "isPr": true },
+          { "setNum": 2, "weight": 65, "reps": 9, "rir": 1, "e1rm": 84.5, "isPr": false },
+          { "setNum": 3, "weight": 65, "reps": 8, "rir": 0, "e1rm": 82.3, "isPr": false }
+        ]
+      }
+    },
+    "2026-11-10": {
+      "date": "2026-11-10",
+      "dayId": "2",
+      "sessionName": "Pierna A — Cuádriceps (Cadena Anterior)",
+      "notes": "Subida de 2.5 kg en sentadilla manteniendo RIR objetivo.",
+      "completedAt": "2026-11-10T19:25:00.000Z",
+      "exercises": {
+        "sentadilla_barra": [
+          { "setNum": 1, "weight": 87.5, "reps": 6, "rir": 2, "e1rm": 105, "isPr": true },
+          { "setNum": 2, "weight": 87.5, "reps": 6, "rir": 1, "e1rm": 105, "isPr": false },
+          { "setNum": 3, "weight": 87.5, "reps": 6, "rir": 1, "e1rm": 105, "isPr": false },
+          { "setNum": 4, "weight": 87.5, "reps": 5, "rir": 0, "e1rm": 102.1, "isPr": false }
+        ],
+        "prensa_45": [
+          { "setNum": 1, "weight": 125, "reps": 12, "rir": 1, "e1rm": 175, "isPr": true },
+          { "setNum": 2, "weight": 125, "reps": 11, "rir": 1, "e1rm": 170.8, "isPr": false },
+          { "setNum": 3, "weight": 125, "reps": 10, "rir": 0, "e1rm": 166.7, "isPr": false }
+        ]
+      }
+    }
+  },
+  "habits": {
+    "2026-11-02": {
+      "calories": 3100,
+      "protein": 172,
+      "water": 3.8,
+      "sleepHours": 7.5,
+      "sleepQuality": 8,
+      "creatine": true,
+      "skincareMorning": true,
+      "skincareNight": true,
+      "mobilityMorning": true,
+      "mobilityNight": true,
+      "wellness": 8,
+      "updatedAt": "2026-11-02T22:30:00.000Z"
+    },
+    "2026-11-03": {
+      "calories": 3050,
+      "protein": 168,
+      "water": 3.6,
+      "sleepHours": 8,
+      "sleepQuality": 9,
+      "creatine": true,
+      "skincareMorning": true,
+      "skincareNight": true,
+      "mobilityMorning": true,
+      "mobilityNight": false,
+      "wellness": 9,
+      "updatedAt": "2026-11-03T22:15:00.000Z"
+    },
+    "2026-11-05": {
+      "calories": 3150,
+      "protein": 175,
+      "water": 4.0,
+      "sleepHours": 7.5,
+      "sleepQuality": 8,
+      "creatine": true,
+      "skincareMorning": true,
+      "skincareNight": true,
+      "mobilityMorning": true,
+      "mobilityNight": true,
+      "wellness": 8,
+      "updatedAt": "2026-11-05T22:45:00.000Z"
+    },
+    "2026-11-06": {
+      "calories": 3120,
+      "protein": 170,
+      "water": 3.7,
+      "sleepHours": 7,
+      "sleepQuality": 7,
+      "creatine": true,
+      "skincareMorning": true,
+      "skincareNight": true,
+      "mobilityMorning": true,
+      "mobilityNight": true,
+      "wellness": 8,
+      "updatedAt": "2026-11-06T23:00:00.000Z"
+    },
+    "2026-11-09": {
+      "calories": 3180,
+      "protein": 176,
+      "water": 3.9,
+      "sleepHours": 8,
+      "sleepQuality": 9,
+      "creatine": true,
+      "skincareMorning": true,
+      "skincareNight": true,
+      "mobilityMorning": true,
+      "mobilityNight": true,
+      "wellness": 9,
+      "updatedAt": "2026-11-09T22:20:00.000Z"
+    },
+    "2026-11-10": {
+      "calories": 3090,
+      "protein": 171,
+      "water": 3.8,
+      "sleepHours": 7.5,
+      "sleepQuality": 8,
+      "creatine": true,
+      "skincareMorning": true,
+      "skincareNight": true,
+      "mobilityMorning": true,
+      "mobilityNight": true,
+      "wellness": 9,
+      "updatedAt": "2026-11-10T22:10:00.000Z"
+    }
+  },
+  "bodyweight": [
+    { "date": "2026-10-20", "weight": 77.2, "notes": "Inicio bloque" },
+    { "date": "2026-10-27", "weight": 77.5, "notes": "" },
+    { "date": "2026-11-03", "weight": 77.8, "notes": "" },
+    { "date": "2026-11-10", "weight": 78.1, "notes": "Subida controlada" }
+  ],
+  "prs": {
+    "press_banca": { "weight": 72.5, "reps": 6, "e1rm": 87, "date": "2026-11-09", "exerciseName": "Press banca barra olímpica" },
+    "remo_pendlay": { "weight": 70, "reps": 7, "e1rm": 86.3, "date": "2026-11-09", "exerciseName": "Remo Pendlay" },
+    "jalon_prono": { "weight": 65, "reps": 10, "e1rm": 86.7, "date": "2026-11-09", "exerciseName": "Jalón al pecho" },
+    "sentadilla_barra": { "weight": 87.5, "reps": 6, "e1rm": 105, "date": "2026-11-10", "exerciseName": "Sentadilla barra olímpica" },
+    "prensa_45": { "weight": 125, "reps": 12, "e1rm": 175, "date": "2026-11-10", "exerciseName": "Prensa 45° pisada alta" },
+    "peso_muerto_deficit": { "weight": 100, "reps": 6, "e1rm": 120, "date": "2026-11-06", "exerciseName": "Peso muerto con déficit" },
+    "dominadas": { "weight": 10, "reps": 8, "e1rm": 12.7, "date": "2026-11-05", "exerciseName": "Dominadas lastradas" }
+  },
+  "pushSubscriptions": []
+}

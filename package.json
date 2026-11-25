@@ -1,0 +1,34 @@
+{
+  "name": "habito-tracker",
+  "version": "1.0.0",
+  "description": "Full-stack PWA & iOS/Expo tracker de entrenamiento de fuerza y hábitos diarios con PostgreSQL, Web Push y sync Obsidian",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node -e \"process.env.DEMO_MODE='true'; require('./server.js')\"",
+    "dev": "vite",
+    "build": "vite build",
+    "test": "node test-e2e.js",
+    "server": "node server.js"
+  },
+  "dependencies": {
+    "compression": "^1.8.2",
+    "cors": "^2.8.5",
+    "dotenv": "^18.0.10",
+    "express": "^4.21.2",
+    "express-rate-limit": "^8.7.5",
+    "helmet": "^8.3.0",
+    "lucide-react": "^1.59.0",
+    "pg": "^8.23.1",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "web-push": "^4.0.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "autoprefixer": "^10.6.1",
+    "postcss": "^8.5.31",
+    "tailwindcss": "^3.4.19",
+    "vite": "^8.3.4"
+  }
+}
